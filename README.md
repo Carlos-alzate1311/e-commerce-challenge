@@ -60,6 +60,19 @@ Los diseños están en la carpeta resources/ e incluyen las siguientes pantallas
 
 🏠 Inicio
 
+## 🗂️ Diseño de la Base de Datos
+
+La base de datos contiene las siguientes entidades:
+
+- `usuario`
+- `producto`
+- `categoria`
+- `carrito`
+- `carrito_producto`
+- `pedido`
+- `detalle_pedido`
+
+La imagen del modelo ER está en `resources/diagrama.png`.
 
 🔧 Instalación del Proyecto
 🔷 Frontend
@@ -86,10 +99,12 @@ spring.datasource.url=jdbc:mysql://localhost:3306/ecommerce_db
 spring.datasource.username=tu_usuario
 spring.datasource.password=tu_contraseña
 spring.jpa.hibernate.ddl-auto=update
+
 Ejecutar la aplicación:
 
 
 ./mvnw spring-boot:run
+
 👤 Autores
 Carlos Alzate – Desarrollador del proyecto
 
@@ -100,4 +115,6 @@ Participante del reto #HagaseUnEcommeceChallenge
 ✅ Estado del proyecto
 📌 Día 1 completado: ✔️
 
-📌 En progreso...
+📌 Día 2: Diseño de la base de datos – ✔️ Completado
+
+📌 Día 3: En desarrollo...
